@@ -1,4 +1,39 @@
 # loopfi-pool-v3-contract-review
+
+| Client | Loopfi V3 Pools |
+|--------|------------------|
+| Title | Smart Contract Audit Report |
+| Target | LoopfiV3Pools |
+| Version | 1.0 |
+| Author | Kufre Samuel |
+| Classification | Public |
+| Status | Draft |
+| Date Created | November 2, 2024 |
+
+# Table of Contents
+- [loopfi-pool-v3-contract-review](#loopfi-pool-v3-contract-review)
+- [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Disclaimer](#disclaimer)
+  - [About Me](#about-me)
+  - [Skills](#skills)
+  - [Link](#link)
+  - [About the Contract](#about-the-contract)
+  - [Scope](#scope)
+  - [Roles in the Contract](#roles-in-the-contract)
+  - [System Overview](#system-overview)
+- [Contract Review](#contract-review)
+  - [Deposit and Mint Functions](#deposit-and-mint-functions)
+  - [Withdraw and Redeem Functions](#withdraw-and-redeem-functions)
+  - [Debt Management](#debt-management)
+  - [Interest Rate and Quota Management](#interest-rate-and-quota-management)
+- [Findings](#findings)
+  - [Qualitative Analysis](#qualitative-analysis)
+    - [Summary](#summary)
+    - [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
+
+## Introduction
 khayss: I want to review this contract.
 
 The review should have 4 sections:
